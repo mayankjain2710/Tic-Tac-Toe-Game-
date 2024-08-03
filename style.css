@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(15 24 77);
+    text-align: center;
+}
+
+.Container{
+    height: 70vh;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.game{
+ height: 53vh;
+ width: 25vw;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 7px;
+
+ 
+}
+
+.box{
+    height: 120px; 
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: brown;
+}
+
+#reset-btn{
+  background-color: #f40606; 
+  border: none; 
+  color: white; 
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.newgamebtn{
+  background-color: #ff6666; 
+  border: none; 
+  color: white; 
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: large;
+}
+
+.msgcontainer{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.msg{
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    color: beige;
+}
+
+.hidden{
+    display: none;
+}
+
+/* CSS for Tic Tac Toe Game Heading */
+.tic-tac-toe-heading {
+    font-family: 'Poppins', sans-serif; /* Font family for the heading */
+    font-size: 48px; /* Larger font size */
+    color: #ffffff; /* White text color */
+    text-align: center; /* Center align the text */
+    margin-top: 40px; /* Space above the heading */
+    margin-bottom: 30px; /* Space below the heading */
+    text-transform: uppercase; /* Make the text uppercase */
+    letter-spacing: 3px; /* More space between the letters */
+    background: linear-gradient(to right, #ff00e1, #0072ff); /* Gradient background */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Make the text transparent (for webkit browsers) */
+    font-weight: 900; /* Extra bold text */
+    text-shadow: 0 0 10px rgba(0, 114, 255, 0.7); /* Text shadow for a glowing effect */
+    border-bottom: 3px solid #00c6ff; /* Bottom border with gradient color */
+    padding-bottom: 15px; /* Padding at the bottom */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.tic-tac-toe-heading:hover {
+    letter-spacing: 5px; /* Increase space between letters on hover */
+    text-shadow: 0 0 15px rgba(0, 114, 255, 1); /* More intense glow on hover */
+}
